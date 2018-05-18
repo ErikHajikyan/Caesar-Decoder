@@ -28,7 +28,7 @@ def encr_decr():
 def askfor_encrword(need):
     file = open("saved_data.json", "r")
     saved_data = json.load(file)
-    print("Enter the sentence/word you want to encode/decode here(the sentence should be with lowercase letters):  ")
+    print("Enter the sentence/word you want to encode/decode here:  ")
     answer = str(raw_input())
     print("Enter the number by which you want to shift elements in your word/sentence:  ")
     shift = int(raw_input())
